@@ -18,7 +18,7 @@
 .logo-section{
     display: flex ;
     /* color: rgb(248, 238, 184); */
-    color: rgb(202, 149, 3);
+    color: white;
     gap: 5px;
     justify-content: center;
     align-items: center;
@@ -80,14 +80,14 @@ flex-wrap: wrap;
     padding-top: 7vw;
     font-weight: bold;
     font-size: 1.5rem;
-    padding-left: 25px;
+    padding-left: 3vw;
     margin-bottom: 0px ;
 }
 .para2{
     margin-top: 0px;
     font-weight: bold;
     font-size: 1.5rem;
-    padding-left: 25px;
+    padding-left: 3vw;
     margin-bottom: 0px ;
 }
 .para3{
@@ -95,7 +95,7 @@ flex-wrap: wrap;
     padding-top: 0px;
     font-weight: bold;
     font-size: 1.5rem;
-    padding-left: 25px;
+    padding-left: 3vw;
     margin-bottom: 0px ;
 }
 .area2{
@@ -107,7 +107,7 @@ box-shadow: 0px 0px 5px rgb(90, 89, 89);
 .area2Para{
     font-weight: bold;
     font-size: 1.5rem;
-    padding-left: 25px;
+    padding-left: 3vw;
     padding-top: 2vh;
     color: rgb(128, 94, 0);
 }
@@ -121,9 +121,14 @@ box-shadow: 0px 0px 5px rgb(90, 89, 89);
     gap: 15px;
     font-weight:500;
     font-size: 1vw;
-    padding-left: 25px;
+    padding-left: 3vw;
     gap: 4.5vh;
     letter-spacing: 2px;
+}
+input:focus,input:active{
+    border: opx white;
+    box-shadow: 0px 0px 5px blue;
+
 }
 input{
     height: 3vh;
@@ -131,9 +136,46 @@ input{
     border-radius: 5px;
     border: 1px solid #E5E7EB;
 }
+input:focus{
+    outline: none !important;
+    border: 1px solid blue;
+    box-shadow: 0px 0px 5px blue;
+
+}
+input:invalid{
+    outline: none !important;
+    border: 1px solid red;
+    box-shadow: 0px 0px 5px red;
+}
 
 .area3{
 width: 100%;
-height: 30vh;
+height: 5vh;
+margin-bottom: 0px;
+}
+.btn{margin-top: 2vh;
+    margin-left: 3vw;
+   font-size: 1rem;
+   border-radius: 5px;
+   color: white;
+   border: 0px;
+   font-weight: bold;
+   background-color: rgb(128, 94, 0);
+    width: 20vh;
+    height: 4vh;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.area3Para{
+    padding-top: 2vh;
+padding-left: 3vw;
+font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(128,94,0);
+    font-weight: bold;
+
 }
 
