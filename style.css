@@ -1,3 +1,6 @@
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Lato&display=swap');
 @font-face {
     font-family: logo-font;
@@ -14,12 +17,13 @@
 }
 .logo-section{
     display: flex ;
-    color: rgb(248, 238, 184);
+    /* color: rgb(248, 238, 184); */
+    color: rgb(202, 149, 3);
     gap: 5px;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 20vh;
+    top: 25vh;
     background: black;
     width: 100%;
     height: 10vh;
@@ -47,15 +51,11 @@ flex-wrap: wrap;
 
 }
 
-.formArea{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
+
 .row{
 
     display: flex;
-    gap: 15px;
+    gap: 10vw;
 }
 .column{
     display: flex;
@@ -63,15 +63,18 @@ flex-wrap: wrap;
 }
 
 .content{
-    width: 60vw;
+    margin-top: 0px;
+    width: 70vw;
     height: 100vh;
     font-family: 'Cairo', sans-serif;
     font-family: 'Lato', sans-serif;
+    background-color: rgb(238, 238, 238);
 }
 .area1{
-    width: 100%;
+    margin-top: 0px;
+    width: 70vw;
     height: 30vh;
-
+    
 }
 .para1{
     padding-top: 7vw;
@@ -98,12 +101,39 @@ flex-wrap: wrap;
 .area2{
 width: 100%;
 height: 40vh;
+background-color: white;
+box-shadow: 0px 0px 5px rgb(90, 89, 89);
 }
+.area2Para{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 25px;
+    padding-top: 2vh;
+    color: rgb(128, 94, 0);
+}
+.row1{
+    padding-top: 2vh;
+}
+
+.formArea{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight:500;
+    font-size: 1vw;
+    padding-left: 25px;
+    gap: 4.5vh;
+    letter-spacing: 2px;
+}
+input{
+    height: 3vh;
+    width: 18vw;
+    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+}
+
 .area3{
 width: 100%;
 height: 30vh;
 }
 
-.formArea{
-    letter-spacing: 2px;
-}
